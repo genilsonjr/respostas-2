@@ -10,12 +10,8 @@
 # Para a correta execução do programa, a estrutura atual deve ser mantida,
 # substituindo apenas o comando print(questão...) existente.
 ##
-def main(Pi= 3.14
-r= int(input('Coloque o valor do raio: '))
-area= Pi * r **2
-diametro= 2 * r
-comprimento= 2 * Pi * r)
-print('Meu amigo a area do seu circulo é', area,'o diametro da sua circunferencia é', diametro,'e o comprimento é', comprimento)
+def main()
+print("questao 3")
 
 
     
