@@ -13,8 +13,8 @@
 def main(salario= float(input('Qual e o seu salário atual: '))
 porcentagem= float(input('Quantos porcentos de aumento: '))
 por= (salario * porcentagem)/100
-resutado= por + salario)
-print('O acrecimo foi de', por,'o seu salário vai ser', resutado,)
+resutado= por + salario
+print('O acrecimo foi de', por,'o seu salário vai ser', resutado,))
     
 
 
