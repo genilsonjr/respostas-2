@@ -10,8 +10,13 @@
 # Para a correta execução do programa, a estrutura atual deve ser mantida,
 # substituindo apenas o comando print(questão...) existente.
 ##
-def main():
-    print("questao 4")
+def main(km= int(input('Quantos qulimetros voce percorreu: '))
+dias=int(input('Quantos dias voce utilizou o carro: '))
+resu1= 60 * dias
+resu2= 0.15 * km
+resutado= resu1 + resu2)
+print(' O valor a ser pago é R$', resutado)
+
 
 
     
