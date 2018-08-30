@@ -12,8 +12,12 @@
 # Para a correta execução do programa, a estrutura atual deve ser mantida,
 # substituindo apenas o comando print(questão...) existente.
 ##
-def main():
-    print("questao 5")
+def main(cigarros= int(input(' Quantos cigarros voce fuma por dia: '))
+anos=int(input('Quantos anos voce ja fumou: '))
+totalciga= (anos * 365)*cigarros
+fumados= (totalciga * 10)/24)
+print('Dias perdidos', fumados)
+    
 
 
     
