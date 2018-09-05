@@ -12,12 +12,12 @@
 ##
 
 def main():
-km= int(input('Quantos qulimetros voce percorreu: '))#pedir que o usuario coloque a quantidade de km pecorridos.
-dias=int(input('Quantos dias voce utilizou o carro: '))#pedir a o usuario a quantidade de dias com o carro.
-resu1= 60 * dias#calculo dos dias 
-resu2= 0.15 * km#calculo dos quilometros
-resutado= resu1 + resu2# a soma dos dois resutados
-print(' O valor a ser pago é R$', resutado)# impressao do valor que o usuario irar pagar.
+    km= int(input('Quantos qulimetros voce percorreu: '))#pedir que o usuario coloque a quantidade de km pecorridos.
+    dias=int(input('Quantos dias voce utilizou o carro: '))#pedir a o usuario a quantidade de dias com o carro.
+    resu1= 60 * dias#calculo dos dias 
+    resu2= 0.15 * km#calculo dos quilometros
+    resutado= resu1 + resu2# a soma dos dois resutados
+    print(' O valor a ser pago é R$', resutado)# impressao do valor que o usuario irar pagar.
 
 
 
