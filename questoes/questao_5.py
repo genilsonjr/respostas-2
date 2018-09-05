@@ -13,11 +13,11 @@
 # substituindo apenas o comando print(questão...) existente.
 ##
 def main():
-cigarros= int(input(' Quantos cigarros voce fuma por dia: '))#a quantidade de cigarros que o usuario fuma por dias.
-anos=int(input('Quantos anos voce ja fumou: '))#pedindo que o usuario informe quantos anos e ja fomou.
-totalciga= (anos * 365)*cigarros#calculo dos cigarros fumados em todos os anos.
-fumados= (totalciga * 10)/24#e o acrecimo pra saber quanto tempo de vida o usuario perdeu.
-print('Dias perdidos', fumados)#impressao dos dias perdidos.
+    cigarros= int(input(' Quantos cigarros voce fuma por dia: '))#a quantidade de cigarros que o usuario fuma por dias.
+    anos=int(input('Quantos anos voce ja fumou: '))#pedindo que o usuario informe quantos anos e ja fomou.
+    totalciga= (anos * 365)*cigarros#calculo dos cigarros fumados em todos os anos.
+    fumados= (totalciga * 10)/24#e o acrecimo pra saber quanto tempo de vida o usuario perdeu.
+    print('Dias perdidos', fumados)#impressao dos dias perdidos.
 
 
     
