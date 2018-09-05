@@ -11,11 +11,11 @@
 # substituindo apenas o comando print(questão...) existente.
 ##
 def main():
-salario= float(input('Qual e o seu salário atual: ')) # pedir pro usuario por o salari atual.
-porcentagem= float(input('Quantos porcentos de aumento: ')) #pedir a prcentagem do aumento.
-por= (salario * porcentagem)/100 #calculo da porcentagem
-resutado= por + salario # culculo da soma do salario com a porcentagem
-print('O acrecimo foi de', por,'o seu salário vai ser', resutado,) #impressao na tela o resutado.
+    salario= float(input('Qual e o seu salário atual: ')) # pedir pro usuario por o salari atual.
+    porcentagem= float(input('Quantos porcentos de aumento: ')) #pedir a prcentagem do aumento.
+    por= (salario * porcentagem)/100 #calculo da porcentagem
+    resutado= por + salario # culculo da soma do salario com a porcentagem
+    print('O acrecimo foi de', por,'o seu salário vai ser', resutado,) #impressao na tela o resutado.
  
 
  
