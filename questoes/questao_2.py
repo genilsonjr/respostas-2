@@ -11,9 +11,9 @@
 # substituindo apenas o comando print(questão...) existente.
 ##
 def main():
-C= int(input('qual e a temperatura em celsius: ')) #pedindo que o usuario coloque o valor de celsius.
-F= C * (9/5) +32 #calculo de conversao de celsius para fahrenheit.
-print('De celsius que e',C,'para fahrenheit e:' ,F) #comando de imprssao da conversao.    
+    C= int(input('qual e a temperatura em celsius: ')) #pedindo que o usuario coloque o valor de celsius.
+    F= C * (9/5) +32 #calculo de conversao de celsius para fahrenheit.
+    print('De celsius que e',C,'para fahrenheit e:' ,F) #comando de imprssao da conversao.    
   
 
 
